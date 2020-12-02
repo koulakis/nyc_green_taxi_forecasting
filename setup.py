@@ -22,6 +22,8 @@ setuptools.setup(
         'numpy',
         'pandas',
         'tqdm',
+        'psycopg2-binary',
+        'sqlalchemy'
     ],
     python_requires='>=3.6'
 )
