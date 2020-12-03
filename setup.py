@@ -23,7 +23,12 @@ setuptools.setup(
         'pandas',
         'tqdm',
         'psycopg2-binary',
-        'sqlalchemy'
+        'sqlalchemy',
+        'geopandas',
+        'folium',
+        'missingno',
+        'descartes',
+        'u8darts[all]'
     ],
     python_requires='>=3.6'
 )

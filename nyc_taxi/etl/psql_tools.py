@@ -66,7 +66,9 @@ class TransactionManager:
         """
         with psycopg2.connect(**self.conn_dict) as conn:
             with conn.cursor() as cursor:
-                self.execute_command(cursor, f'CREATE INDEX {column}_idx_{table_name} ON {table_name} (column);', conn)
+                self.execute_command(
+                    cursor,
+                    f'CREATE INDEX {column}_idx_{table_name} ON {table_name} ({column});', conn)
 
     @staticmethod
     def execute_command(cursor, command, conn):

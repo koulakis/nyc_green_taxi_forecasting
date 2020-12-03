@@ -97,6 +97,6 @@ def process_csv(path, all_columns, extra_column_dtypes, output_folder):
     integer_columns = list(column_types[column_types == np.int].index)
     (df[sorted(df.columns)]
      .assign(**{
-        col: lambda d: d[col].astype(np.float)
+        col: df[col].astype(np.float)
         for col in integer_columns})
      .to_csv(output_dir / path.name, index=False))
