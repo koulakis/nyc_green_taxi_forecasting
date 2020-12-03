@@ -3,3 +3,4 @@ data
 nyc_taxi.egg-info
 __pycache__
 .ipynb_checkpoints
+.darts
