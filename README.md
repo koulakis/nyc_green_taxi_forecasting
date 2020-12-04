@@ -22,4 +22,4 @@ Below are some references to relevant resources and some blogs and tutorials whi
 - Kaggle tutorial on geospatial data: https://www.kaggle.com/learn/geospatial-analysis
 - Darts time series model zoo: https://unit8co.github.io/darts/generated_api/darts.models.html
 - Blog with examples of using darts: https://medium.com/unit8-machine-learning-publication/darts-time-series-made-easy-in-python-5ac2947a8878
-- Paper wherep prophet was introduced: https://peerj.com/preprints/3190v2/
+- Paper where prophet was introduced: https://peerj.com/preprints/3190v2/
