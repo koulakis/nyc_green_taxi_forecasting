@@ -6,7 +6,7 @@ In order to setup the project just run
 `pip install setup.py`
 In case you want to train deep learning models for forecasting via `darts`, you will need to additionally install `pytorch`.
 
-## Data downloading and injestion to PSQL
+## Data downloading and ingestion to PSQL
 Under the directory `runs`, there are some python scripts which execute simple ETL tasks. Those are the following:
 
 - `download_green_taxi_data.py`: Downloads each file from the corresponding link. This is performed sequentially and with a timeout of 5 seconds to avoid getting blocked.
